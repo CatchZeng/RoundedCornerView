@@ -6,10 +6,14 @@
 
 ## Features
 
-* Support IBDesignable.
-* Support custom all radius(topLeft,topRight,bottomLeft,bottomRight).
-* Support constant radius.
-* Support percent radius.
+* IBDesignable.
+* custom all radius(topLeft,topRight,bottomLeft,bottomRight).
+* constant radius.
+* percent radius.
+
+![Feature](https://github.com/CatchZeng/RoundedCornerView/blob/master/feature.png)
+
+![Feature](https://github.com/CatchZeng/RoundedCornerView/blob/master/feature.gif)
 
 ## Example
 
