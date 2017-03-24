@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="RoundedCornerView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1AX-gw-4Lx" customClass="RoundedCornerView" customModule="RoundedCornerView">
+                                <rect key="frame" x="63" y="28" width="250" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="default is height's half(0.5)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACc-oR-eoa">
+                                        <rect key="frame" x="23" y="39" width="203" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1529411765" green="0.74509803919999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="234-pV-rWg"/>
+                                    <constraint firstItem="ACc-oR-eoa" firstAttribute="centerX" secondItem="1AX-gw-4Lx" secondAttribute="centerX" id="DxC-Ya-61G"/>
+                                    <constraint firstAttribute="height" constant="100" id="iQU-02-qiU"/>
+                                    <constraint firstItem="ACc-oR-eoa" firstAttribute="centerY" secondItem="1AX-gw-4Lx" secondAttribute="centerY" id="v2F-5m-QS5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xEU-Yw-W3S" customClass="RoundedCornerView" customModule="RoundedCornerView">
+                                <rect key="frame" x="62" y="138" width="250" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="change to 0.3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDl-JD-6Ld">
+                                        <rect key="frame" x="72.5" y="39" width="105" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1529411765" green="0.74509803919999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="IDl-JD-6Ld" firstAttribute="centerY" secondItem="xEU-Yw-W3S" secondAttribute="centerY" id="7Oh-uW-HxJ"/>
+                                    <constraint firstAttribute="width" constant="250" id="hxT-TT-GPX"/>
+                                    <constraint firstItem="IDl-JD-6Ld" firstAttribute="centerX" secondItem="xEU-Yw-W3S" secondAttribute="centerX" id="qgJ-AP-aLK"/>
+                                    <constraint firstAttribute="height" constant="100" id="sbx-B7-wpp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="radiusPercent">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OjL-Rj-kr0" customClass="RoundedCornerView" customModule="RoundedCornerView">
+                                <rect key="frame" x="62" y="248" width="250" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="only left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Og5-DA-ws4">
+                                        <rect key="frame" x="94" y="39" width="62" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1529411765" green="0.74509803919999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="04S-mz-3rx"/>
+                                    <constraint firstItem="Og5-DA-ws4" firstAttribute="centerX" secondItem="OjL-Rj-kr0" secondAttribute="centerX" id="19e-MN-yH6"/>
+                                    <constraint firstAttribute="width" constant="250" id="q1y-fK-oWL"/>
+                                    <constraint firstItem="Og5-DA-ws4" firstAttribute="centerY" secondItem="OjL-Rj-kr0" secondAttribute="centerY" id="zbY-Zu-EdT"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="topRight" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="bottomLeft" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="bottomRight" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7OK-0C-VnB" customClass="RoundedCornerView" customModule="RoundedCornerView">
+                                <rect key="frame" x="63" y="358" width="250" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="constant radius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zfg-JZ-08g">
+                                        <rect key="frame" x="65.5" y="40" width="119" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1529411765" green="0.74509803919999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Zfg-JZ-08g" firstAttribute="centerY" secondItem="7OK-0C-VnB" secondAttribute="centerY" id="Iz6-pk-gDw"/>
+                                    <constraint firstAttribute="width" constant="250" id="iGX-6d-WFG"/>
+                                    <constraint firstAttribute="height" constant="100" id="jET-p7-qUs"/>
+                                    <constraint firstItem="Zfg-JZ-08g" firstAttribute="centerX" secondItem="7OK-0C-VnB" secondAttribute="centerX" id="m5q-nc-rMb"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="constantRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1AX-gw-4Lx" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="6Vc-9W-QJN"/>
+                            <constraint firstItem="1AX-gw-4Lx" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Drs-eF-qYl"/>
+                            <constraint firstItem="7OK-0C-VnB" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="K9f-Wl-ve1"/>
+                            <constraint firstItem="OjL-Rj-kr0" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="VDp-q1-fkf"/>
+                            <constraint firstItem="xEU-Yw-W3S" firstAttribute="top" secondItem="1AX-gw-4Lx" secondAttribute="bottom" constant="10" id="eNb-hg-Gt8"/>
+                            <constraint firstItem="OjL-Rj-kr0" firstAttribute="top" secondItem="xEU-Yw-W3S" secondAttribute="bottom" constant="10" id="qIU-IF-KAa"/>
+                            <constraint firstItem="xEU-Yw-W3S" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="xRa-pF-yS8"/>
+                            <constraint firstItem="7OK-0C-VnB" firstAttribute="top" secondItem="OjL-Rj-kr0" secondAttribute="bottom" constant="10" id="y7t-qz-c8h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1303" y="0.0"/>
+        </scene>
+    </scenes>
+</document>

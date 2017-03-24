@@ -1,0 +1,6 @@
+framework module RoundedCornerView {
+  umbrella header "RoundedCornerView-umbrella.h"
+
+  export *
+  module * { export * }
+}

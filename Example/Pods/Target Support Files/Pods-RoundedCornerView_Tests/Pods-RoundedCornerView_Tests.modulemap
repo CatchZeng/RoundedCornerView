@@ -1,0 +1,6 @@
+framework module Pods_RoundedCornerView_Tests {
+  umbrella header "Pods-RoundedCornerView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

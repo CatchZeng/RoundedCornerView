@@ -1,0 +1,16 @@
+PODS:
+  - RoundedCornerView (0.1.0)
+
+DEPENDENCIES:
+  - RoundedCornerView (from `../`)
+
+EXTERNAL SOURCES:
+  RoundedCornerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RoundedCornerView: 19b7efa56d96b5094e8eff9b16703e8a966a5ba0
+
+PODFILE CHECKSUM: 0ea882ed9e9083d75cbcbfec5b66cf49c607d463
+
+COCOAPODS: 1.2.0
