@@ -12,7 +12,7 @@
 * percent radius.
 
 ![Feature](https://github.com/CatchZeng/RoundedCornerView/blob/master/feature.gif)
-![Feature](https://github.com/CatchZeng/RoundedCornerView/blob/master/feature.png)
+![Feature](https://github.com/CatchZeng/RoundedCornerView/blob/master/feature.jpg)
 
 ## Example
 
