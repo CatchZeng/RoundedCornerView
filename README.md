@@ -4,6 +4,13 @@
 [![License](https://img.shields.io/cocoapods/l/RoundedCornerView.svg?style=flat)](http://cocoapods.org/pods/RoundedCornerView)
 [![Platform](https://img.shields.io/cocoapods/p/RoundedCornerView.svg?style=flat)](http://cocoapods.org/pods/RoundedCornerView)
 
+## Features
+
+* Support IBDesignable.
+* Support custom all radius(topLeft,topRight,bottomLeft,bottomRight).
+* Support constant radius.
+* Support percent radius.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
