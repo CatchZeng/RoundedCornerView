@@ -20,6 +20,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+iOS8+
+
 ## Installation
 
 RoundedCornerView is available through [CocoaPods](http://cocoapods.org). To install
@@ -31,7 +33,7 @@ pod "RoundedCornerView"
 
 ## Author
 
-CatchZeng, 891793848@qq.com
+CatchZeng, http://catchzeng.com
 
 ## License
 
