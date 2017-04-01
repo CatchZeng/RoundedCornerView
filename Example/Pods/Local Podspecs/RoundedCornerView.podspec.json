@@ -1,8 +1,8 @@
 {
   "name": "RoundedCornerView",
   "version": "0.1.0",
-  "summary": "A short description of RoundedCornerView.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Simple rounded corner view.",
+  "description": "Support all radius(topLeft,topRight,bottomLeft,bottomRight) and IBDesignable.",
   "homepage": "https://github.com/CatchZeng/RoundedCornerView",
   "license": {
     "type": "MIT",

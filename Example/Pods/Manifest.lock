@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RoundedCornerView: 19b7efa56d96b5094e8eff9b16703e8a966a5ba0
+  RoundedCornerView: f5146ffd5077e3dc4c41ddbb3d6da663771109c6
 
 PODFILE CHECKSUM: 0ea882ed9e9083d75cbcbfec5b66cf49c607d463
 

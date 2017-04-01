@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class RoundedCornerView: UIView {
+open class RoundedCornerView: UIView {
     
     @IBInspectable var radiusPercent: CGFloat = 0.5 {
         didSet {
@@ -27,7 +27,7 @@ class RoundedCornerView: UIView {
         }
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         setCornerRadius()
     }
