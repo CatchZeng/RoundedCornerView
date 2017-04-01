@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RoundedCornerView'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Simple rounded corner view.'
   s.description      = 'Support all radius(topLeft,topRight,bottomLeft,bottomRight) and IBDesignable.'
   s.homepage         = 'https://github.com/CatchZeng/RoundedCornerView'
